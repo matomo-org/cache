@@ -68,7 +68,7 @@ class FilesystemCache extends FileCache
 
         fclose($resource);
 
-        return unserialize($data);
+        return unserialize($data, ['allowed_classes' => false]);
     }
 
     /**
