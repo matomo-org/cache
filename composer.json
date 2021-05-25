@@ -1,5 +1,5 @@
 {
-    "name": "doctrine/cache",
+    "name": "matomo/doctrine-cache-fork",
     "type": "library",
     "description": "Caching library offering an object-oriented API for many cache backends",
     "keywords": ["cache", "caching"],
